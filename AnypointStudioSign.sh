@@ -1,4 +1,5 @@
 whoami
+security unlock-keychain -p mulesoft123 /Users/mulesoft/Library/Keychains/login.keychain
 filenameunsigned="$(ls | grep "AnypointStudio-for-macosx.*.zip")" 
 filename="${filenameunsigned/-unsigned/}"
 unzip $filenameunsigned
